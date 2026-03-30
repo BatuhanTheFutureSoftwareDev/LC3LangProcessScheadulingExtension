@@ -1,0 +1,10 @@
+limit = 5;
+previousSum = 1;
+currentSum = 1;
+iteration = 1;
+tempVar = 0;
+
+
+if (iteration < 6):
+  iteration = iteration + 1;
+end

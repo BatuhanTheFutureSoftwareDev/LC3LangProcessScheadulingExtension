@@ -1,0 +1,17 @@
+x = 5;          // Outer loop counter
+y = 3;          // Inner loop counter (used in each outer iteration)
+result = 0;     // Will accumulate the total iterations
+
+BRK(31,0,0,0);
+
+while (x != 0):
+  inner = y;  // Reset inner loop counter for each outer iteration
+  
+  
+  while (inner != 0):
+    result = result + 1;
+    inner = inner - 1;
+  end
+
+  x = x - 1;
+end

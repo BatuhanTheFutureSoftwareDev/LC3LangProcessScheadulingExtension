@@ -1,0 +1,21 @@
+//Register Initialization:
+//Do not change the names of these varaibles, but you can change the initial values 
+R1 = 0;             // Accumulator (final result)
+R2 = 0;             
+R3 = 0;             // Updated by subtracting 2 each iteration
+R4 = 2; // Some initial value (used in the IF branch)
+
+//Variable Declarations
+limit = 5;
+previousSum = 1;
+currentSum = 1;
+iteration = 1;
+tempVar = 0;
+
+
+while (iteration < limit):
+  tempVar = currentSum;
+  currentSum = currentSum + previousSum;
+  previousSum = tempVar;
+  iteration += 1;
+end
